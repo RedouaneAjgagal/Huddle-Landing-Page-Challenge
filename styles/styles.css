@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+}
+h2{
+    font-family: 'Noto Sans', sans-serif;
+}
+h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+.top-content{
+    background-image: url("/huddle-landing-page/images/bg-hero-desktop.svg");
+    background-repeat: round;
+    background-color: #f3fbfc;
+    padding: 50px 90px;
+    margin-bottom: 60px;
+    min-height: 60vh;
+}
+nav{
+    margin-bottom: 40px;
+    position: relative;
+}
+nav img{
+    width: 256px;
+}
+nav a{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a button{
+    background-color: #fff;
+    border-radius: 20px;
+    border-style: none;
+    padding: 13px 60px;
+    box-shadow: 5px 5px 10px #e2e2e2;
+    transition: .3s;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+nav a button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 15px #e2e2e2;
+}
+nav a button:active{
+    background-color: #e9faff;
+}
+.middle {
+    position: relative;
+}
+.mockup-img{
+    position: absolute;
+    right: 20px;
+    width: 750px;
+    height: 480px;
+}
+.introduce-huddle{
+    width: 42%;
+    position: absolute;
+    top: 80px;
+}
+.introduce-huddle h1{
+    margin-bottom: 35px;
+    font-size: 3rem;
+    color: #263b47;
+}
+.huddle-description{
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.17rem;
+    margin-bottom: 35px;
+    color: #263b47;
+}
+.get-started-button{
+    background-color: #ff62b0;
+    color: #fff;
+    border-radius: 20px;
+    border-style: none;
+    padding: 13px 60px;
+    box-shadow: 5px 5px 10px #e2e2e2;
+    transition: .3s;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+.get-started-button:hover{
+    background-color: #ff2e97;
+    box-shadow: 10px 10px 15px #e2e2e2;
+    cursor: pointer;
+}
+.get-started-button:active{
+    background-color: #ff62b0;
+}
+.middle-content{
+    position: relative;
+    padding: 50px 90px;
+}
+.border-sections{
+    border: solid 1px #e9faff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ebebeb;
+    padding: 60px 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+.border-sections img{
+    width: 400px;
+}
+.title-content .section-title{
+    color: #263b47;
+}
+.title-content .section-description{
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #919191;
+    width: 65%;
+}
+.sign-up-box{
+    position: relative;
+    width: 40%;
+    text-align: center;
+    padding: 50px 60px;
+    margin: 80px auto 0;
+    border: solid 1px #e9faff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ebebeb;
+    top: 120px;
+    background-color: #fff;
+}
+.sign-up-box h2{
+    margin-bottom: 30px;
+}
+.bottom-content{
+    padding: 160px 90px 40px;
+    background-color: #d5e8eb;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-content{
+    position: relative;
+    display: flex;
+}
+.footer-contact{
+    width: 27%;
+    margin-right: 150px;
+}
+.footer-contact img{
+    margin-right: 20px;
+}
+.footer-contact p {
+    margin: 20px auto;
+    line-height: 1.5rem;
+}
+ul li{
+    list-style: none;
+    margin: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: #444444;
+}
+.footer-menu{
+    display: flex;
+}
+.footer-menu-links{
+    padding: 0 50px;
+}
+.social-links{
+    padding: 22px 50px;
+}
+.bold{
+    font-size: 0.9rem;
+    color: #444444;
+}
+.copyright{
+    float: right;
+    font-size: 0.85rem;
+    color: #8a8a8a;
+}
